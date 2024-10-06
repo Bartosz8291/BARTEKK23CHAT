@@ -1,38 +1,37 @@
+body {
+    font-family: "Montserrat", system-ui;
+    font-style: normal;
+}
+
 .chat-container {
-      font-family: "Montserrat", system-ui;
     display: flex;
     flex-direction: column;
     height: 100vh;
 }
 
 .conversation-list {
-    font-family: "Montserrat", system-ui;
     flex: 1;
     overflow-y: auto;
     padding: 10px;
 }
 
 .chat-window {
-    font-family: "Montserrat", system-ui;
     flex: 1;
     overflow-y: auto;
     padding: 10px;
 }
 
 .message-input {
-    font-family: "Montserrat", system-ui;
     display: flex;
     align-items: center;
     padding: 10px;
 }
 
 .message-input input {
-    font-family: "Montserrat", system-ui;
     flex: 1;
     padding: 5px;
 }
 
 .message-input button {
-    font-family: "Montserrat", system-ui;
     padding: 5px 10px;
 }
